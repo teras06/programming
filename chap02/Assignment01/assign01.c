@@ -6,11 +6,28 @@
 
  * 날짜: 2025.3.31
 
- * 버전: v1.0
+ * 버전: v1.1
 
  */
 
 #include <stdio.h>
+
+void Print(void);
+
+int main(void)
+{
+	Print();
+	return 0;
+}
+
+void Print(void)
+{
+	printf("int main(void)\n{\n    return 0;\n}");
+	return 0;
+}
+
+
+/*#include <stdio.h>
 
 int main(void)
 {
@@ -23,3 +40,4 @@ print(void)
 	printf("int main(void)\n{\n    return 0;\n}");
 	return 0;
 }
+*/
